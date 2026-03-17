@@ -1,0 +1,32 @@
+1. Write a Program using POSIX Real-Time Threads
+
+
+import threading 
+ 
+def run(): 
+    print("Real-time style thread running") 
+ 
+thread = threading.Thread(target=run) 
+thread.start() 
+thread.join() 
+
+
+2. Study and Simulate Power Management Approaches 
+used in Android/iOS 
+
+battery = int(input("Enter battery percentage: ")) 
+ 
+if battery > 50: 
+    print("Normal Mode") 
+elif battery > 20: 
+    print("Optimized Power Saving Mode") 
+else: 
+    print("Ultra Power Saving Mode") 
+
+3. Implementation of Android Applications
+
+def button_click(): 
+    print("Hello Android") 
+ 
+print("Simple Android Application Simulation") 
+button_click()
